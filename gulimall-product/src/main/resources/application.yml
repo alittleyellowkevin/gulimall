@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.56.10:3306/gulimall_pms
+    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    alicloud:
+      access-key: LTAI5tKDGVYRVVmzjZEf6L9
+      secret-key: zz438x5rhEWXP0pNsDhDdJNrTBQ8LO
+      oss:
+        endpoint: oss-cn-shenzhen.aliyuncs.com
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 8090

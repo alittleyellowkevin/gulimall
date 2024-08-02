@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: ad01a89d-a4ee-48f3-a25c-b0479a21b22d
+      config:
+        server-addr: localhost:8848
+        namespace: ad01a89d-a4ee-48f3-a25c-b0479a21b22d
+  application:
+    name: gulimall-member
